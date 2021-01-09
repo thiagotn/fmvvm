@@ -72,6 +72,7 @@ class _SignupViewState extends State<SignupView> {
                 ),
                 TextFormField(
                   keyboardType: TextInputType.visiblePassword,
+                  obscureText: true,
                   decoration: InputDecoration(
                     labelText: "Senha",
                     labelStyle: TextStyle(

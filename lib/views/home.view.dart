@@ -8,8 +8,20 @@ class HomeView extends StatelessWidget {
     var store = Provider.of<AppStore>(context);
     return Scaffold(
       appBar: AppBar(),
-      body: Center(
-        child: Text(store.name),
+      body: SingleChildScrollView(
+        child: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.network(
+                store.picture,
+              ),
+              Text(store.name),
+              Text(store.email),
+            ],
+          ),
+        ),
       ),
     );
   }
