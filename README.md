@@ -1,6 +1,6 @@
 # fmvvm
 
-A new Flutter project using MobX, MVC e MVVM
+A sample Flutter project using MobX, Provider and architecture MVC/MVVM
 
 ## Getting Started
 
@@ -15,3 +15,5 @@ Run command bellow to generate mobx code:
 Run app:
 
     flutter run
+
+    
